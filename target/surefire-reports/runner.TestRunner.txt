@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 10, Errors: 0, Skipped: 15, Time elapsed: 5.68 s <<< FAILURE! - in runner.TestRunner
+Then JSESSIONID should be generated Successfully as Output(| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+Then JSESSIONID should be generated Successfully as Output(| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+Then JSESSIONID should be generated Successfully as Output(| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+Then JSESSIONID should be generated Successfully as Output(| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+Then JSESSIONID should be generated Successfully as Output(| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+
+| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+

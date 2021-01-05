@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberFramework.Framework.AppTest" time="0.042" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="5.68" tests="35" errors="0" skipped="15" failures="10">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,5 +60,99 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testApp" classname="CucumberFramework.Framework.AppTest" time="0.002"/>
+  <testcase name="Given User creates the JSON for Cookie Authentication" classname="| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |" time="0"/>
+  <testcase name="When User hits Post Request for the Cookie Authentication with created JSON" classname="| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |" time="0"/>
+  <testcase name="Then JSESSIONID should be generated Successfully as Output" classname="| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |" time="0.004">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |" classname="| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |" time="0.004">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="Given User Create Input JSON for Defect Creation Test Summary1 and Bug and Test Description1 and RES and sathish081192G and High" classname="| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User hits Post Request for Defect Creation with created JSON" classname="| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Defect Response should be validated and New DefectID should be generated Successfully" classname="| Test Summary1 | Bug | Test Description1 | RES | sathish081192G | High |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User creates the JSON for Cookie Authentication" classname="| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |" time="0"/>
+  <testcase name="When User hits Post Request for the Cookie Authentication with created JSON" classname="| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |" time="0"/>
+  <testcase name="Then JSESSIONID should be generated Successfully as Output" classname="| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |" classname="| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="Given User Create Input JSON for Defect Creation Test Summary2 and Bug and Test Description2 and RES and sathish081192G and Medium" classname="| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User hits Post Request for Defect Creation with created JSON" classname="| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Defect Response should be validated and New DefectID should be generated Successfully" classname="| Test Summary2 | Bug | Test Description2 | RES | sathish081192G | Medium |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User creates the JSON for Cookie Authentication" classname="| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |" time="0"/>
+  <testcase name="When User hits Post Request for the Cookie Authentication with created JSON" classname="| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |" time="0"/>
+  <testcase name="Then JSESSIONID should be generated Successfully as Output" classname="| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |" classname="| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="Given User Create Input JSON for Defect Creation Test Summary3 and Bug and Test Description3 and RES and sathish081192G and Low" classname="| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User hits Post Request for Defect Creation with created JSON" classname="| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Defect Response should be validated and New DefectID should be generated Successfully" classname="| Test Summary3 | Bug | Test Description3 | RES | sathish081192G | Low |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User creates the JSON for Cookie Authentication" classname="| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |" time="0"/>
+  <testcase name="When User hits Post Request for the Cookie Authentication with created JSON" classname="| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |" time="0"/>
+  <testcase name="Then JSESSIONID should be generated Successfully as Output" classname="| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |" classname="| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="Given User Create Input JSON for Defect Creation Test Summary4 and Bug and Test Description4 and RES and sathish081192G and Medium" classname="| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User hits Post Request for Defect Creation with created JSON" classname="| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Defect Response should be validated and New DefectID should be generated Successfully" classname="| Test Summary4 | Bug | Test Description4 | RES | sathish081192G | Medium |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User creates the JSON for Cookie Authentication" classname="| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |" time="0"/>
+  <testcase name="When User hits Post Request for the Cookie Authentication with created JSON" classname="| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |" time="0"/>
+  <testcase name="Then JSESSIONID should be generated Successfully as Output" classname="| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |" time="0">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |" classname="| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |" time="0.001">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+]]></failure>
+  </testcase>
+  <testcase name="Given User Create Input JSON for Defect Creation Test Summary5 and Bug and Test Description5 and RES and sathish081192G and High" classname="| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User hits Post Request for Defect Creation with created JSON" classname="| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Defect Response should be validated and New DefectID should be generated Successfully" classname="| Test Summary5 | Bug | Test Description5 | RES | sathish081192G | High |" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
